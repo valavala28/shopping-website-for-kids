@@ -1,0 +1,16 @@
+body{
+    background-color:aqua;
+}
+.lan a{
+    text-decoration: none;
+}
+a{
+    color: rgb(112, 6, 68);
+}
+.dropdown{
+    margin-top: 80px;
+    padding-top: 30px;
+    background-color: rgb(243, 117, 134);
+    margin-left: 140px;
+    margin-right: 140px;
+}
