@@ -1,0 +1,129 @@
+  
+ body{
+    overflow-x: hidden;
+ }
+ *{
+    text-align: center;
+/* align-items: center; */
+    background-color: #74ecce;  
+}
+h1{
+    line-height: 15px;
+    font-weight: 1000;
+    font-size: 30px ;
+/* color: navy; */
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+transition: 1.2s;
+margin: 12px auto;
+
+
+}
+.title{
+    width: 200px;
+}
+.team{
+    width: 300px;
+}
+h1:hover{
+    transform: scale(1.2);
+    rotate: 360deg;
+    color: rgb(250, 216, 26);
+}
+  .fullpage{
+    margin-top: 100px;
+   /* height: 100; */
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   }
+   .team-member
+{
+    height: 490px;
+    width: 307.67px;
+    background-color: crimson;
+    margin: 0 10px;
+    margin-bottom: 30px;
+    display: flex;
+    /* border: 1px solid hsl(10, 89, 10); */
+  box-shadow: 0 4px 8px black;
+  transition: box-shadow 1s ;
+  /* border-radius: 10%; */
+}
+
+.TL:hover{
+    box-shadow: 0 14px 16px rgb(245, 213, 34) ;
+}
+.doc:hover{
+    box-shadow: 0 14px 16px rgb(255, 109, 133);
+}
+.code:hover{
+    box-shadow: 0 14px 16px rgb(109, 29, 133) ;
+}
+img{
+    background-size: cover;
+    height: 80%;
+    width: inherit;
+
+}
+span{
+    /* display: inline; */
+    /* height: inherit; */
+    position: absolute;
+    /* right: 50px; */
+}
+.one,.two,.three,.four{
+    top:590px;
+    transition: 0.5s;
+
+}
+.one:hover,.two:hover,.three:hover,.four:hover{
+    transform: scale(1.2);
+}
+.des2{
+    top: 630px;
+}
+.des3{
+    top: 650px;
+}
+.des4{
+top:1150px;
+}
+.des7{
+top:1170px;
+}
+.des{
+    top: 610px;
+}
+.des5{
+    top: 1125px;
+}
+.five{
+top:1100px ;
+
+transition: 0.5s;
+}
+.five:hover{
+    transform: scale(1.2);
+}
+span{
+    font-weight: 900;
+    font-style:Arial, Helvetica, sans-serif;
+    background-color:crimson;
+    margin-left: 15px;
+}
+.TL span{
+    color: gold;
+}
+.doc span{
+    
+    color: pink
+}
+.code span{
+    
+    color:darkgray;
+}
