@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SHIPPING ADDRESS PAGE</title>
+    <link rel="stylesheet" href="checkstyle.css">
+    <script src="checkout.js"></script>
+    <style>
+        body{
+            background:linear-gradient(220deg,#ffffef,#51e4bf);
+        }
+        header{
+            background:linear-gradient(300deg,#ffffef,#51e4bf);
+        }
+        </style>
+</head>
+<body>
+<form name="Form" onsubmit="return validateForm()" action="pay.html">
+    <h2>SHIPPING ADDRESS PAGE</h2>
+    <div class="box">
+        <label>Full Name<font color=red> *</font></label>
+        <input type="text" name="name" id="name">
+        <div class="error" id="nameErr"></div>
+    </div>
+    <div class="box">
+        <label>Email Address<font color=red> *</font></label>
+        <input type="text" name="email" id="email">
+        <div class="error" id="emailErr"></div>
+    </div>
+    <div class="box">
+        <label>Mobile Number<font color=red> *</font></label>
+        <input type="text" name="mobile" maxlength="10" id="mobile">
+        <div class="error" id="mobileErr"></div>
+    </div>
+     
+         <label >Flat,House no.,company,apartment<font color=red> </font></label>
+         <input type="text" id="address" name="address" >
+         <div class="error" id="addressErr"></div>
+
+             <label >Land mark</label>
+            <input type="text" id="landmark" name="landmark">
+
+            <label >Area,Street,Sector,Village<font color=red> </font></label>
+            <input type="text" id="area" name="area" >
+            <div class="error" id="areaErr"></div>
+
+            <label >Pincode<font color=red> *</font></label>
+            <input type="text" id="pincode" name="pincode">
+            <div class="error" id="pincodeErr"></div>
+
+            <label >Town/City</label>
+            <input type="text" id="town" name="town">
+            <div class="error" id="townErr"></div>
+    <div class="box">
+        <label>State<font color=red> *</font></label>
+        <select name="country" id="country">
+            <option>Select</option>
+            <option>Andra Pradesh</option>
+            <option>Arunchal Pradesh</option>
+            <option>Bihar</option>
+            <option>Chattisgarh</option>
+            <option>Goa</option>
+            <option>Gujarat</option>
+            <option>Haryana</option>
+            <option>Himachal Pradesh</option>
+            <option>Jharkhand</option>
+            <option>Karnataka</option>
+            <option>Kerala</option>
+            <option>Madhya Pradesh</option>
+            <option>Maharastra</option>
+            <option>Manipur</option>
+            <option>Meghalaya</option>
+            <option>Mizoram</option>
+            <option>Nagaland</option>
+            <option>Odisha</option>
+            <option>Punjab</option>
+            <option>Rajasthan</option>
+            <option>Sikkim</option>
+            <option>Tamil Nadu</option>
+            <option>Telangana</option>
+            <option>Tripura</option>
+            <option>Uttarakhand</option>
+            <option>Uttaer Pradesh</option>
+            <option>West Bengal</option>
+        </select> 
+        <div class="error" id="countryErr"></div>
+    </div>
+
+    <!-- just add this line -->
+   <button style="margin-left:30px;margin-top:30px; font-size:20px;background-color:inherit;border:1px solid black" id="con">Confirm order</button>
+          
+   
+</form>
+
+</body>
+</html>

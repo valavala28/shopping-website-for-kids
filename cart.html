@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="shortcut icon" type="image/png" href="../Common Files/image/favicon.png">
+    <link rel="stylesheet" href="stylepp.css">
+    <link rel="stylesheet" href="cart.css">
+    <style>
+        footer{
+            position: fixed;
+        }
+        .makeorder h2{
+            text-decoration: none;
+            color: antiquewhite;
+        }
+        body{
+            background:linear-gradient(220deg,#ffffef,#51e4bf);
+        }
+        header{
+            background:linear-gradient(300deg,#ffffef,#51e4bf);
+        }
+    </style>
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+  
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="1.webp" width="220" height="70" id="landingPage">
+        </div>
+        <div id="brand">
+            <h2 id="kid">Kiddy<span>'S</span>&nbsp;&nbsp;World</h2>
+        </div>
+        <ul id="nav_bar">
+            <li id="megamenu_container"><a href="menHomePage.html">Boys</a></li>&nbsp;
+            <li><a href="womenHomePage.html">Girls</a></li>&nbsp;
+            <li><a href="toyshome.html">Toys</a></li>&nbsp;
+            <li><a href="accessiorshome.html">Accessories</a></li>&nbsp;
+            <li><a href="stationaryhome.html">Stationary</a></li>&nbsp;
+            <li id="studio"><a href="foodhome.html">Food Items</a></li>&nbsp;
+        </ul> 
+        <div id="right_icon">
+            <div id="reggDropdown">
+                <!-- DROPDOWN MENU TO BE CREATED FOR LOGIN AND SIGNUP -->
+            
+
+              <i class="fa-regular fa-user"></i>
+              <span>Account</span>
+          </div>
+            <div>
+                <i class="fa-regular fa-heart"></i>
+                <span>Wishlist</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>Cart</span>
+            </div>
+            
+        </div>
+                   <!-- TOGGLE MENU -->
+                   <div id="toggle">
+                    <i class='bx bx-menu dropbtn' onclick="myFunction()"></i>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div class="top">
+                            <a href="menHomePage.html">Boys</a>
+                            <a href="womenHomePage.html">Girls</a>
+                            <a href="toyshome.html">Toys</a>
+                            <a href="accessiorshome.html">Accessories</a>
+                            <a href="stationaryhome.html">Stationary</a>
+                            <a href="foodhome.html">Food Items</a>
+                        </div>
+                        <div class="bottom">
+                            <i class="fa-regular fa-user fa_user" id="profile"></i>
+                            <i class="fa-regular fa-heart fa_wishlist"></i>
+                            <i class="fa-solid fa-bag-shopping fa_cart"></i>
+                        </div>               
+                    </div>
+                </div>
+    </header>
+
+    <div id="upperbar">
+   
+        <div>
+           <p> <span id="first">BAG </span>--------- <span id="second">ADDRESS</span>   --------- <span>PAYMENT</span></p>
+        </div>
+        <div>
+         <img src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png" alt="">
+        <span>100% SECURE</span>
+        </div>
+    </div>
+
+    <div id="timerbox">
+        <p>Sale Starts in <span> 3 </span> Days</p>
+    </div>
+<div class="con_ord">
+    <div class="container">
+
+    </div>
+
+    <div class="orderbox">
+      <div class="pricedets">PRICE DETAILS</div>
+      <div class="total">
+         <span>Total MRP</span><span class="totalprice">--</span> 
+      </div>
+      <div class="discount">
+        <span>Discount on MRP</span><span class="filldiscount">--</span> 
+     </div>
+
+     <div class="amount">
+        <span>Total Amount</span><span class="amount_pay">--</span> 
+     </div>
+   
+
+
+      
+      
+    
+       <div class="makeorder">
+        <h2><a href="checkout.html"><b>PLACE ORDER</b></a></h2></div>   
+    </div>
+</div>
+    
+
+    <div class="wishlistlink">
+        <i class="fa-duotone fa-cart-flatbed"></i>
+    <p>Want to Add More From Wishlist</p>
+   
+   
+</div>
+
+
+</body>
+</html>
+<script src="cart.js"></script>
+
