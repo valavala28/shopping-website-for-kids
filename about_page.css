@@ -1,0 +1,187 @@
+  
+ body{
+    overflow-x: hidden;
+background:linear-gradient(220deg,#ffffef,#51e4bf);  
+
+ }
+ *{
+    text-align: center;
+/* align-items: center; */
+margin: 0;
+
+}
+.aboutUs{
+margin:50px 0 0;
+background:linear-gradient(220deg,#ffffef,#51e4bf);  
+    height: 100vh;
+    width: 100%;
+}
+.head{
+
+    font-size: 45px;
+position: absolute;
+top: 200px;
+left: 80px;
+color: black;
+background-color: inherit;
+box-shadow: 0 8px 12px grey;
+}
+.description{
+    margin: 100px auto;
+    /* border: 1px solid black; */
+    height: 220px;
+    width: 700px;
+    padding: 40px;
+    background-color: navy;
+    box-shadow: 0 12px 32px black;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    line-height: 22px;
+}
+.pic{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    height: 300px;
+    width: 390px;
+    background: url("about11.jpeg");
+background-size: cover;
+border-radius: 50%;
+transition: 1s;
+box-shadow: 0 12px 32px navy;
+}
+.pic:hover{
+    border-radius: 25%;
+    border: 1px solid rgb(150, 150, 219);
+}
+p{
+font-weight: 700;
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+/* font-style: italic; */
+color: white;
+background-color: inherit;
+}
+b{
+    color: darkgrey ;
+    transition: 1s;
+    background-color: inherit;
+    transition: 1s linear;
+}
+b:hover{
+    color: gold;
+}
+h1{
+    line-height: 19px;
+    font-weight: 1000;
+    font-size: 30px ;
+/* color: navy; */
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+transition: 1.2s;
+margin: 12px auto;
+
+
+}
+.title{
+    margin-top: 100px;
+    width: 230px;
+}
+.team{
+    width: 300px;
+    background-color: inherit;
+}
+h1:hover{
+    transform: scale(1.2);
+    rotate: 360deg;
+    color: wheat;
+}
+  .fullpage{
+    margin-top: 100px;
+   /* height: 100; */
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   }
+   .team-member
+ {
+    height: 400px;
+    width: 307.67px;
+background:#090958;
+    
+    margin: 0 10px;
+    margin-bottom: 30px;
+    display: flex;
+  box-shadow: 0 4px 8px black;
+  transition: box-shadow 1s ;
+  /* border-radius: 10%; */
+ }
+.team-member .TL{
+    background-color: crimson;
+}
+.TL:hover{
+    box-shadow: 0 14px 16px gold ;
+}
+.doc:hover{
+    box-shadow: 0 14px 16px pink;
+}
+.code:hover{
+    box-shadow: 0 14px 16px black ;
+}
+img{
+    background-size: cover;
+    height: 80%;
+    width: inherit;
+
+}
+span{
+    /* display: inline; */
+    /* height: inherit; */
+    position: absolute;
+    /* right: 50px; */
+}
+.one,.two,.three,.four{
+    top:1260px;
+    transition: 0.5s;
+
+}
+.one:hover,.two:hover,.three:hover,.four:hover{
+    transform: scale(1.2);
+}
+
+.des{
+    top: 1280px;
+}
+.des5{
+    top: 1710px;
+}
+.five{
+top:1690px ;
+
+transition: 0.5s;
+}
+.five:hover{
+    transform: scale(1.2);
+}
+span{
+    font-weight: 900;
+    font-style:Arial, Helvetica, sans-serif;
+    background:#090958;
+    margin-left: 15px;
+}
+.TL span{
+    color: gold;
+}
+.doc span{
+    
+    color: pink
+}
+.code span{
+    
+    color:darkgray;
+}
