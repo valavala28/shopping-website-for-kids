@@ -1,0 +1,213 @@
+
+body{
+    background-color:  #023246 #f6f6f6;
+    /* overflow-y: hidden; */
+    /* #17252a */
+
+}
+*{
+    margin: 0;
+}
+/* 
+nav{
+    display: flex;
+    height: 30px;
+    width: 900px;
+    position: fixed;
+    border: 10px solid #286599; */
+    /* margin-top: 50px; */
+    /* justify-content: center; */
+/* }
+ul{
+    display: flex;
+    
+}
+li{
+    margin: 0 20px;
+    padding: 0 7px;
+} */
+
+header{
+    /* background-color:  ; */
+    /* #17252a */
+    height: 100px;
+}
+header marquee{
+    position: relative;
+    top: 18px;
+    height: 5.5em;
+    padding:0 80px
+    /* background-color: yellow; */
+}
+marquee p{
+    position: relative;
+    top:18px ;
+    font-size: 35px;
+    color: #feffff  #023246  #bb3131;
+    animation: randomcolor 1s linear infinite;
+    /* border-left: 1px solid goldenrod; */
+}
+.congrats
+{
+    position: relative;
+    top: 10px;
+    left: 660px;
+    color: none;
+    border: 1px solid navy;
+}
+.row1{
+    margin-top: 50px;
+}
+.row1,.row2,.row3,.row4,.row5{
+    display: flex;
+flex-wrap: wrap;
+/* align-items: center; */
+justify-content: space-evenly;
+/* border: 1px solid #2b7a78; */
+
+background-color: #287094 ;
+/* #d4d4ce #f6f6f6 #17252a */
+z-index: 100;
+}
+.content{
+    padding: 30px;
+}
+.row1 div,.row2 div,.row3 div,.row4 div,.row5 div{
+    /* margin-top: 25px; */
+    height: 198px;
+    width: 350px;
+    border: 2px solid #def2f1;
+    /* border-style: double; */
+    
+    transition: all 0.3s linear ;
+    
+}
+
+
+iframe{
+    height: inherit;
+    width: inherit;
+
+    /* transition: all 1s linear ; */
+
+}
+.content div:hover{
+    transform:scale(1.08);
+    border:2px solid black; 
+    box-shadow: 4px 8px 14px  #17252a ;
+}
+
+/* .gif{
+    border-radius: 25px;
+} */
+.welcomel:hover img,.welcomer:hover img{
+    height: 100px;
+    width: 100px;
+
+}
+ .dorae{
+    /* background-color: #3aafa9; */
+    position: absolute;
+    /* top:250px; */
+    /* right: 0px; */
+    animation: dorae 7s linear infinite ;
+display: inline-block;
+}
+.hello{
+    display: inline;
+    position: absolute;
+    top: 180px;
+    left: 367px;
+    /* background-color: red; */
+}
+.hello img{
+    height: 220px;
+    width: 220px;
+    z-index: -1;
+
+}
+.hi{
+    display: inline-block;
+    position: absolute;
+    top: 790px;
+    right: 200px;
+    opacity: 0;
+    animation: popup 3s linear infinite;
+}.hi img{
+    
+    width: 150px;
+    height: 150px;
+}
+ .welcomel{
+    position: absolute;
+    top: 10px;
+    display: inline-block;    
+}
+.welcomer{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: inline-block;    
+}
+.dorae img{
+    height: 150px;
+    width:150px ;
+}
+.welcomel img,.welcomer img{
+    height: 80px;
+    width: 80px;
+}
+
+@keyframes dorae {
+    0%{
+top:450px ;
+right: -50px;
+    }
+    100%{
+        top:50px ;
+        right: 100%;
+            }
+            
+}
+ @keyframes randomcolor {
+    50%{
+        font-size:40px ;
+        color: gold ;
+    }
+}
+@keyframes popup {
+    50%{
+        opacity: 1;
+    }
+    
+}
+
+.darkmodehead{
+    color: white;
+    /* font-size: 100px; */
+    background-color: grey;
+}
+
+.darkmoderemain{
+
+    /* font-size: 100px; */
+    background-color: darkblue;
+
+}
+.opacity{
+    opacity: 0.7;
+}
+#dark{
+    position: absolute;
+    right: 40px;
+    top: 115px;
+    
+    /* border: 1px solid navy; */
+}
+#lang{
+    position: absolute;
+    top: 115px;
+    left: 40px;
+    
+    /* border: 1px solid navy; */
+}
