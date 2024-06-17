@@ -1,0 +1,56 @@
+
+.score{
+
+    background-color: aqua;
+}
+.r1,.r2,.r3,.r4,.r5{
+    height: 80px;
+    /* background-color: aliceblue; */
+}
+.r1 b{
+    padding-left: 50px;
+    /* padding-right:150px; *
+}
+.r2 b{
+    padding-left: 50px;
+    /* padding-right:110px; */
+}
+.r3 b{
+    padding-left: 50px;
+    /* padding-right:97px; */
+}
+.r4 b{
+    padding-left: 50px;
+    /* padding-right:130px; */
+}
+.r5 b{
+    padding-left: 50px;
+}
+input{
+    position: absolute;
+
+}
+#q{
+    
+    right: 50%;
+}
+#w{
+        right: 50%;
+
+}
+#e{
+
+    right: 50%;
+}
+#r{
+
+    right: 50%;
+}
+#t{
+
+    right: 50%;
+}
+#q:checked,#w:checked,#e:checked,#r:checked,#t:checked
+  {
+      left: 15%;
+}

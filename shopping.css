@@ -1,0 +1,18 @@
+body{
+    background-color: grey;
+}
+*{
+    margin: 0;
+}
+.account-info{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: 300px;
+    width: 400px;
+    background-color: cyan;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}

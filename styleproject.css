@@ -1,0 +1,16 @@
+body{
+    padding:50px;
+    background:linear-gradient(120deg,#ffffef,#51e4bf);
+}
+.container{
+    max-width: 300px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(49, 9, 61, 0.2) 9px 7px 29px 0px;
+}
+.form-group{
+    margin-bottom:30px;
+}
+.reg h2{
+    color:#0e3030 ;
+}

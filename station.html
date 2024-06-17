@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationary</title>
+    <link rel="shortcut icon" type="image/png" href="../Common Files/image/favicon.png">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mens.css">
+    <link rel="stylesheet" href="stylep.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        #container{
+        margin-left: 140px;
+        display: grid;
+    grid-template-columns: repeat(4, 7fr);
+        }
+        #sorting{
+            padding-left: 400px;
+        }
+        #sorting:hover{
+            background-color: rgb(248, 91, 143);
+        }
+        .filter{
+            background-color: rgb(167, 245, 248);
+        }
+        body{
+            background:linear-gradient(220deg,#ffffef,#51e4bf);
+        }
+        header{
+            background:linear-gradient(300deg,#ffffef,#51e4bf);
+        }
+        footer{
+            background:linear-gradient(220deg,#ffffef,#51e4bf);
+        }
+        a{
+            text-decoration: none;
+            transition: all .40s;
+            color:black
+        }
+        a:hover{
+            color:crimson;
+            font-size: 22px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="1.webp" width="220" height="70" id="landingPage">
+        </div>
+        <div id="brand">
+            <h2 id="kid">Kiddy<span>'S</span>&nbsp;&nbsp;World</h2>
+        </div>
+        <ul id="nav_bar">
+            <li id="megamenu_container"><a href="menHomePage.html">Boys</a></li>&nbsp;
+            <li><a href="womenHomePage.html">Girls</a></li>&nbsp;
+            <li><a href="toyshome.html">Toys</a></li>&nbsp;
+            <li><a href="accessiorshome.html">Accessories</a></li>&nbsp;
+            <li><a href="stationaryhome.html">Stationary</a></li>&nbsp;
+            <li id="studio"><a href="foodhome.html">Food Items</a></li>&nbsp;
+        </ul> 
+        <div id="right_icon">
+           
+            <div>
+                <i class="fa-regular fa-heart"></i>
+                <span>Wishlist</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>Cart</span>
+            </div>
+        </div>
+                   <!-- TOGGLE MENU -->
+                   <div id="toggle">
+                    <i class='bx bx-menu dropbtn' onclick="myFunction()"></i>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div class="top">
+                            <a href="menHomePage.html">Boys</a>
+                            <a href="womenHomePage.html">Girls</a>
+                            <a href="toyshome.html">Toys</a>
+                            <a href="accessiorshome.html">Accessories</a>
+                            <a href="stationaryhome.html">Stationary</a>
+                            <a href="foodhome.html">Food Items</a>
+                        </div>
+                        <div class="bottom">
+                            <i class="fa-regular fa-user fa_user" id="profile"></i>
+                            <i class="fa-regular fa-heart fa_wishlist"></i>
+                            <i class="fa-solid fa-bag-shopping fa_cart"></i>
+                        </div>               
+                    </div>
+                </div>
+    </header>
+
+    <div id="sorting">
+
+        <select class="filter" id="brandFilter">
+            <option id="normal" value="all">FILTER BY BRAND</option>
+            <option value="Pens For Good HandWriting">Pens</option>
+            <option value="Geometry Box">Geometry/Pouches</option>
+            <option value="File Keepers">file Keepers</option>
+            <option value="Markers">Markers</option>
+               
+          </select>
+
+        <select class="filter" id="priceSort">
+            <option value="---">SORT BY PRICE</option>
+            <option value="lth">Low → High</option>
+            <option value="htl">High → Low</option>
+          </select>
+
+        <select class="filter" id="nameSort">
+            <option value="---">SORT BY NAME</option>
+            <option value="asc">Ascending</option>
+            <option value="dsc">Descending</option>
+          </select>
+
+    </div>
+
+
+    
+        <div id="container"></div>
+    </div>
+
+    <footer>
+        <section id="section_1">
+            <div class="total">
+            <div id="left">
+                <div>
+                    <h4>Our categories</h4>
+                  <a href="women.html"> <p>Girls</p></a>
+                  <a href="mens.html"><p>BOys</p></a>
+                      <a href="station.html">  <p>Stationary</p></a>
+  <a href="toy.html">
+      <p>Toys</p></a>
+  <a href="women.html">   <p>Girls Foot wear</p></a>
+  <a href="mens.html"> <p>Boys foot wear</p></a>
+            </div>
+
+            </div>
+           
+        </section>
+        <section id="section_4">
+            <p>In case of any concern <a href="contactswapna.php"> contact us</a></p>
+            <div>
+                <h4 id="social_connect">Follows Us at</h4>
+                <div>
+                  <i class="fa-brands fa-facebook-square"></i>
+                  <i class="fa-brands fa-twitter-square"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <p>&#169; www.kiddy's world.com. All rights reserved.</p>
+        </section>
+        <hr>
+      
+    </footer>
+
+</body>
+
+</html>
+<script src="stations.js"></script>
+<script src="headerMenu.js"></script>
+<script src="hyperlinks.js"></script>
+
